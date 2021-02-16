@@ -1,0 +1,18 @@
+DROP DATABASE AddressBook;
+CREATE DATABASE AddressBook;
+
+USE AddressBook;
+
+CREATE TABLE addressBook(
+	cID INT(100) NOT NULL,
+	firstName VARCHAR(20) NOT NULL,
+	lastName VARCHAR(20)NOT NULL,
+	address VARCHAR(50),
+	contact VARCHAR(10),
+	email VARCHAR(30) NOT NULL,
+	CONSTRAINT PRIMARY KEY (cID)
+);
+
+ 
+
+ 
